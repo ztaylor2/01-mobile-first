@@ -1,2 +1,2 @@
 # 01-mobile-first
-Class 1 lab assignment
+Class 1 lab assignment will be published here
