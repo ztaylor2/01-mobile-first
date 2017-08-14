@@ -50,6 +50,12 @@
   text-decoration: none;
 }
 
+
+#menuIcon {
+  font-size: 40px;
+  float: right;
+}
+
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main nav should be all on one row, with padding spaced better for a larger screen.
