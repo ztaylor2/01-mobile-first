@@ -8,7 +8,12 @@
   padding: 0 0 .2em 1em;
 }
 
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+/* TODO: (done) Add styles for the icon-menu class. It should be bigger, and off to the right. */
+
+#menuIcon {
+  font-size: 40px;
+  float: right;
+}
 
 .main-nav {
   padding: 0.1em;
@@ -50,14 +55,29 @@
   text-decoration: none;
 }
 
-
-#menuIcon {
-  font-size: 40px;
-  float: right;
-}
-
 /* TODO: Now add styles for how things should look on a larger screen:
          - Hide the hamburger.
          - Main nav should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
-/* @media only screen... */
+@media screen and (min-width: 1000px) {
+
+  .main-nav ul {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+  .main-nav li {
+    display: inline-block;
+    float:left;
+    border-bottom: none;
+    text-align: center;
+    width: 25%;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+  }
+
+  #menuIcon {
+    display: none;
+  }
+
+}
